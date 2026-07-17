@@ -1,0 +1,36 @@
+# Dependencies (installed fresh inside container)
+**/node_modules
+
+# Build output (rebuilt inside container)
+**/dist
+
+# Environment & secrets
+.env
+.env.*
+
+# Version control
+.git
+.gitignore
+
+# IDE & OS
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Documentation & meta
+README.md
+DEPLOYMENT.md
+task_progress
+*.md
+
+# AWS deployment configs (not needed in image)
+aws/
+
+# Docker configs (not needed in image)
+docker-compose.yml
+deploy.sh

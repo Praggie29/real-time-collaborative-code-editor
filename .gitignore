@@ -1,0 +1,8 @@
+node_modules/
+.env
+dist/
+.DS_Store
+*.log
+task_progress
+Frontend/dist/
+Backend/public/
